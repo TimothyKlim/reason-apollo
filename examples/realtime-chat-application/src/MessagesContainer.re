@@ -1,4 +1,4 @@
-[@bs.module] external gql: ReasonApolloTypes.gql = "graphql-tag";
+[@bs.module "graphql-tag"] external gql : ReasonApolloTypes.gql = "default";
 
 module Styles = {
   open Css;
